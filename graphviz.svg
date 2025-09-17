@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1359pt" height="580pt" viewBox="0.00 0.00 1359.00 580.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 576.4)">
+<title>Legacy_System_Dependencies</title>
+<text xml:space="preserve" text-anchor="middle" x="675.5" y="-8.8" font-family="Helvetica,sans-Serif" font-size="16.00">Best Practice System Dependency Graph</text>
+<g id="clust1" class="cluster">
+<title>cluster_environment</title>
+<polygon fill="#f5f5f5" stroke="#f5f5f5" points="8,-485.2 8,-564.4 294,-564.4 294,-485.2 8,-485.2"/>
+<text xml:space="preserve" text-anchor="middle" x="151" y="-546" font-family="Helvetica,sans-Serif" font-size="16.00">Operational Environment</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_execution</title>
+<polygon fill="#f5f5f5" stroke="#f5f5f5" points="86,-377.2 86,-456.4 382,-456.4 382,-377.2 86,-377.2"/>
+<text xml:space="preserve" text-anchor="middle" x="234" y="-438" font-family="Helvetica,sans-Serif" font-size="16.00">Execution &amp; Orchestration</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_application</title>
+<polygon fill="#f5f5f5" stroke="#f5f5f5" points="390,-35.2 390,-456.4 700,-456.4 700,-35.2 390,-35.2"/>
+<text xml:space="preserve" text-anchor="middle" x="545" y="-438" font-family="Helvetica,sans-Serif" font-size="16.00">Application Layer</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_libraries</title>
+<polygon fill="#b3e5fc" stroke="#b3e5fc" stroke-dasharray="5,2" points="538,-43.2 538,-230.4 692,-230.4 692,-43.2 538,-43.2"/>
+<text xml:space="preserve" text-anchor="middle" x="615" y="-212" font-family="Helvetica,sans-Serif" font-size="16.00">External Libraries</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_data</title>
+<polygon fill="#f5f5f5" stroke="#f5f5f5" points="708,-35.2 708,-265.6 1343,-265.6 1343,-35.2 708,-35.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1025.5" y="-247.2" font-family="Helvetica,sans-Serif" font-size="16.00">Data &amp; Presentation Layer</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_templates</title>
+<polygon fill="#f5f5f5" stroke="#f5f5f5" points="897,-151.2 897,-230.4 1335,-230.4 1335,-151.2 897,-151.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1116" y="-212" font-family="Helvetica,sans-Serif" font-size="16.00">Templates</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_static</title>
+<polygon fill="#f5f5f5" stroke="#f5f5f5" points="1126,-43.2 1126,-122.4 1310,-122.4 1310,-43.2 1126,-43.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1218" y="-104" font-family="Helvetica,sans-Serif" font-size="16.00">Static Files</text>
+</g>
+<!-- Unix&#45;like OS (e.g., Linux) -->
+<g id="node1" class="node">
+<title>Unix-like OS (e.g., Linux)</title>
+<polygon fill="#e0e0e0" stroke="black" points="154.13,-529.2 27.87,-529.2 27.87,-533.2 15.87,-533.2 15.87,-493.2 154.13,-493.2 154.13,-529.2"/>
+<polyline fill="none" stroke="black" points="15.87,-529.2 27.87,-529.2"/>
+<text xml:space="preserve" text-anchor="middle" x="85" y="-507.9" font-family="Helvetica,sans-Serif" font-size="11.00">Unix-like OS (e.g., Linux)</text>
+</g>
+<!-- run_forever.sh -->
+<g id="node4" class="node">
+<title>run_forever.sh</title>
+<polygon fill="#ffe082" stroke="black" points="174.46,-421.2 93.54,-421.2 93.54,-385.2 180.46,-385.2 180.46,-415.2 174.46,-421.2"/>
+<polyline fill="none" stroke="black" points="174.46,-421.2 174.46,-415.2"/>
+<polyline fill="none" stroke="black" points="180.46,-415.2 174.46,-415.2"/>
+<text xml:space="preserve" text-anchor="middle" x="137" y="-399.9" font-family="Helvetica,sans-Serif" font-size="11.00">run_forever.sh</text>
+</g>
+<!-- Unix&#45;like OS (e.g., Linux)&#45;&gt;run_forever.sh -->
+<g id="edge1" class="edge">
+<title>Unix-like OS (e.g., Linux)-&gt;run_forever.sh</title>
+<path fill="none" stroke="#444444" stroke-dasharray="5,2" d="M123.83,-492.88C123.83,-492.88 123.83,-433.12 123.83,-433.12"/>
+<polygon fill="#444444" stroke="#444444" points="127.33,-433.12 123.83,-423.12 120.33,-433.12 127.33,-433.12"/>
+<text xml:space="preserve" text-anchor="middle" x="116.77" y="-467.1" font-family="Helvetica,sans-Serif" font-size="9.00"> executes shell script</text>
+</g>
+<!-- Python 2 Interpreter -->
+<g id="node2" class="node">
+<title>Python 2 Interpreter</title>
+<polygon fill="#e0e0e0" stroke="black" points="285.61,-529.2 184.39,-529.2 184.39,-533.2 172.39,-533.2 172.39,-493.2 285.61,-493.2 285.61,-529.2"/>
+<polyline fill="none" stroke="black" points="172.39,-529.2 184.39,-529.2"/>
+<text xml:space="preserve" text-anchor="middle" x="229" y="-507.9" font-family="Helvetica,sans-Serif" font-size="11.00">Python 2 Interpreter</text>
+</g>
+<!-- Flask Dev Server -->
+<g id="node5" class="node">
+<title>Flask Dev Server</title>
+<polygon fill="#ffcdd2" stroke="black" points="374.18,-421.2 273.82,-421.2 273.82,-417.2 269.82,-417.2 269.82,-413.2 273.82,-413.2 273.82,-393.2 269.82,-393.2 269.82,-389.2 273.82,-389.2 273.82,-385.2 374.18,-385.2 374.18,-421.2"/>
+<polyline fill="none" stroke="black" points="273.82,-417.2 277.82,-417.2 277.82,-413.2 273.82,-413.2"/>
+<polyline fill="none" stroke="black" points="273.82,-393.2 277.82,-393.2 277.82,-389.2 273.82,-389.2"/>
+<text xml:space="preserve" text-anchor="middle" x="324" y="-399.9" font-family="Helvetica,sans-Serif" font-size="11.00">Flask Dev Server</text>
+</g>
+<!-- Python 2 Interpreter&#45;&gt;Flask Dev Server -->
+<g id="edge4" class="edge">
+<title>Python 2 Interpreter-&gt;Flask Dev Server</title>
+<path fill="none" stroke="#444444" stroke-dasharray="5,2" d="M279.72,-492.88C279.72,-492.88 279.72,-433.12 279.72,-433.12"/>
+<polygon fill="#444444" stroke="#444444" points="283.22,-433.12 279.72,-423.12 276.22,-433.12 283.22,-433.12"/>
+<text xml:space="preserve" text-anchor="middle" x="348.77" y="-467.1" font-family="Helvetica,sans-Serif" font-size="9.00"> runs (via app.py)</text>
+</g>
+<!-- Makefile -->
+<g id="node3" class="node">
+<title>Makefile</title>
+<polygon fill="#ffe082" stroke="black" points="249.48,-421.2 198.52,-421.2 198.52,-385.2 255.48,-385.2 255.48,-415.2 249.48,-421.2"/>
+<polyline fill="none" stroke="black" points="249.48,-421.2 249.48,-415.2"/>
+<polyline fill="none" stroke="black" points="255.48,-415.2 249.48,-415.2"/>
+<text xml:space="preserve" text-anchor="middle" x="227" y="-399.9" font-family="Helvetica,sans-Serif" font-size="11.00">Makefile</text>
+</g>
+<!-- Makefile&#45;&gt;Python 2 Interpreter -->
+<g id="edge3" class="edge">
+<title>Makefile-&gt;Python 2 Interpreter</title>
+<path fill="none" stroke="#444444" stroke-dasharray="5,2" d="M227,-421.52C227,-421.52 227,-481.28 227,-481.28"/>
+<polygon fill="#444444" stroke="#444444" points="223.5,-481.28 227,-491.28 230.5,-481.28 223.5,-481.28"/>
+<text xml:space="preserve" text-anchor="middle" x="254.51" y="-467.1" font-family="Helvetica,sans-Serif" font-size="9.00"> invokes</text>
+</g>
+<!-- run_forever.sh&#45;&gt;Python 2 Interpreter -->
+<g id="edge2" class="edge">
+<title>run_forever.sh-&gt;Python 2 Interpreter</title>
+<path fill="none" stroke="#444444" stroke-dasharray="5,2" d="M176.43,-421.52C176.43,-421.52 176.43,-481.28 176.43,-481.28"/>
+<polygon fill="#444444" stroke="#444444" points="172.93,-481.28 176.43,-491.28 179.93,-481.28 172.93,-481.28"/>
+<text xml:space="preserve" text-anchor="middle" x="198.51" y="-467.1" font-family="Helvetica,sans-Serif" font-size="9.00"> invokes</text>
+</g>
+<!-- app.py -->
+<g id="node6" class="node">
+<title>app.py</title>
+<path fill="#c5e1a5" stroke="black" d="M680,-338.4C680,-338.4 650,-338.4 650,-338.4 644,-338.4 638,-332.4 638,-326.4 638,-326.4 638,-314.4 638,-314.4 638,-308.4 644,-302.4 650,-302.4 650,-302.4 680,-302.4 680,-302.4 686,-302.4 692,-308.4 692,-314.4 692,-314.4 692,-326.4 692,-326.4 692,-332.4 686,-338.4 680,-338.4"/>
+<text xml:space="preserve" text-anchor="middle" x="665" y="-317.1" font-family="Helvetica,sans-Serif" font-size="11.00">app.py</text>
+</g>
+<!-- Flask Dev Server&#45;&gt;app.py -->
+<g id="edge5" class="edge">
+<title>Flask Dev Server-&gt;app.py</title>
+<path fill="none" stroke="#444444" stroke-dasharray="5,2" d="M374.66,-403.2C451.85,-403.2 590.02,-403.2 590.02,-403.2 590.02,-403.2 590.02,-331.2 590.02,-331.2 590.02,-331.2 625.99,-331.2 625.99,-331.2"/>
+<polygon fill="#444444" stroke="#444444" points="625.99,-334.7 635.99,-331.2 625.99,-327.7 625.99,-334.7"/>
+<text xml:space="preserve" text-anchor="middle" x="477.01" y="-359.1" font-family="Helvetica,sans-Serif" font-size="9.00"> hosts</text>
+</g>
+<!-- Flask -->
+<g id="node9" class="node">
+<title>Flask</title>
+<path fill="#ffd180" stroke="black" d="M672,-195.2C672,-195.2 642,-195.2 642,-195.2 636,-195.2 630,-189.2 630,-183.2 630,-183.2 630,-171.2 630,-171.2 630,-165.2 636,-159.2 642,-159.2 642,-159.2 672,-159.2 672,-159.2 678,-159.2 684,-165.2 684,-171.2 684,-171.2 684,-183.2 684,-183.2 684,-189.2 678,-195.2 672,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="657" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">Flask</text>
+</g>
+<!-- app.py&#45;&gt;Flask -->
+<g id="edge6" class="edge">
+<title>app.py-&gt;Flask</title>
+<path fill="none" stroke="red" stroke-width="2" d="M661,-301.97C661,-301.97 661,-207.07 661,-207.07"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="664.5,-208.58 661,-198.58 657.5,-208.58 664.5,-208.58"/>
+<text xml:space="preserve" text-anchor="middle" x="659.01" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> uses framework</text>
+</g>
+<!-- whoknows.db -->
+<g id="node13" class="node">
+<title>whoknows.db</title>
+<path fill="#b0bec5" stroke="black" d="M798.32,-191.93C798.32,-193.73 779.8,-195.2 757,-195.2 734.2,-195.2 715.68,-193.73 715.68,-191.93 715.68,-191.93 715.68,-162.47 715.68,-162.47 715.68,-160.67 734.2,-159.2 757,-159.2 779.8,-159.2 798.32,-160.67 798.32,-162.47 798.32,-162.47 798.32,-191.93 798.32,-191.93"/>
+<path fill="none" stroke="black" d="M798.32,-191.93C798.32,-190.12 779.8,-188.65 757,-188.65 734.2,-188.65 715.68,-190.12 715.68,-191.93"/>
+<text xml:space="preserve" text-anchor="middle" x="757" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">whoknows.db</text>
+</g>
+<!-- app.py&#45;&gt;whoknows.db -->
+<g id="edge19" class="edge">
+<title>app.py-&gt;whoknows.db</title>
+<path fill="none" stroke="#444444" stroke-width="2" d="M688,-301.97C688,-263.3 688,-177.2 688,-177.2 688,-177.2 703.76,-177.2 703.76,-177.2"/>
+<polygon fill="#444444" stroke="#444444" stroke-width="2" points="702.24,-180.7 712.24,-177.2 702.24,-173.7 702.24,-180.7"/>
+<text xml:space="preserve" text-anchor="middle" x="769.27" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> queries/updates</text>
+</g>
+<!-- schema.sql -->
+<g id="node14" class="node">
+<title>schema.sql</title>
+<polygon fill="#ffe082" stroke="black" points="881.82,-195.2 816.18,-195.2 816.18,-159.2 887.82,-159.2 887.82,-189.2 881.82,-195.2"/>
+<polyline fill="none" stroke="black" points="881.82,-195.2 881.82,-189.2"/>
+<polyline fill="none" stroke="black" points="887.82,-189.2 881.82,-189.2"/>
+<text xml:space="preserve" text-anchor="middle" x="852" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">schema.sql</text>
+</g>
+<!-- app.py&#45;&gt;schema.sql -->
+<g id="edge20" class="edge">
+<title>app.py-&gt;schema.sql</title>
+<path fill="none" stroke="#444444" stroke-width="2" d="M692.19,-307.2C744.06,-307.2 852,-307.2 852,-307.2 852,-307.2 852,-207.06 852,-207.06"/>
+<polygon fill="#444444" stroke="#444444" stroke-width="2" points="855.5,-208.58 852,-198.58 848.5,-208.58 855.5,-208.58"/>
+<text xml:space="preserve" text-anchor="middle" x="867.76" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> initializes with</text>
+</g>
+<!-- layout.html -->
+<g id="node15" class="node">
+<title>layout.html</title>
+<path fill="#ffccbc" stroke="black" d="M1229.59,-195.2C1229.59,-195.2 1184.41,-195.2 1184.41,-195.2 1178.41,-195.2 1172.41,-189.2 1172.41,-183.2 1172.41,-183.2 1172.41,-171.2 1172.41,-171.2 1172.41,-165.2 1178.41,-159.2 1184.41,-159.2 1184.41,-159.2 1229.59,-159.2 1229.59,-159.2 1235.59,-159.2 1241.59,-165.2 1241.59,-171.2 1241.59,-171.2 1241.59,-183.2 1241.59,-183.2 1241.59,-189.2 1235.59,-195.2 1229.59,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1207" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">layout.html</text>
+</g>
+<!-- app.py&#45;&gt;layout.html -->
+<g id="edge7" class="edge">
+<title>app.py-&gt;layout.html</title>
+<path fill="none" stroke="#444444" d="M692.25,-328.2C802.16,-328.2 1207,-328.2 1207,-328.2 1207,-328.2 1207,-206.93 1207,-206.93"/>
+<polygon fill="#444444" stroke="#444444" points="1210.5,-206.93 1207,-196.93 1203.5,-206.93 1210.5,-206.93"/>
+<text xml:space="preserve" text-anchor="middle" x="1192.51" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> renders</text>
+</g>
+<!-- about.html -->
+<g id="node16" class="node">
+<title>about.html</title>
+<path fill="#ffccbc" stroke="black" d="M1314.68,-195.2C1314.68,-195.2 1271.32,-195.2 1271.32,-195.2 1265.32,-195.2 1259.32,-189.2 1259.32,-183.2 1259.32,-183.2 1259.32,-171.2 1259.32,-171.2 1259.32,-165.2 1265.32,-159.2 1271.32,-159.2 1271.32,-159.2 1314.68,-159.2 1314.68,-159.2 1320.68,-159.2 1326.68,-165.2 1326.68,-171.2 1326.68,-171.2 1326.68,-183.2 1326.68,-183.2 1326.68,-189.2 1320.68,-195.2 1314.68,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1293" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">about.html</text>
+</g>
+<!-- app.py&#45;&gt;about.html -->
+<g id="edge8" class="edge">
+<title>app.py-&gt;about.html</title>
+<path fill="none" stroke="#444444" d="M692.39,-333.2C813.26,-333.2 1293,-333.2 1293,-333.2 1293,-333.2 1293,-206.91 1293,-206.91"/>
+<polygon fill="#444444" stroke="#444444" points="1296.5,-206.91 1293,-196.91 1289.5,-206.91 1296.5,-206.91"/>
+<text xml:space="preserve" text-anchor="middle" x="1278.51" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> renders</text>
+</g>
+<!-- login.html -->
+<g id="node17" class="node">
+<title>login.html</title>
+<path fill="#ffccbc" stroke="black" d="M956.54,-195.2C956.54,-195.2 917.46,-195.2 917.46,-195.2 911.46,-195.2 905.46,-189.2 905.46,-183.2 905.46,-183.2 905.46,-171.2 905.46,-171.2 905.46,-165.2 911.46,-159.2 917.46,-159.2 917.46,-159.2 956.54,-159.2 956.54,-159.2 962.54,-159.2 968.54,-165.2 968.54,-171.2 968.54,-171.2 968.54,-183.2 968.54,-183.2 968.54,-189.2 962.54,-195.2 956.54,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="937" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">login.html</text>
+</g>
+<!-- app.py&#45;&gt;login.html -->
+<g id="edge9" class="edge">
+<title>app.py-&gt;login.html</title>
+<path fill="none" stroke="#444444" d="M692.33,-312.2C761.3,-312.2 937,-312.2 937,-312.2 937,-312.2 937,-207.2 937,-207.2"/>
+<polygon fill="#444444" stroke="#444444" points="940.5,-207.2 937,-197.2 933.5,-207.2 940.5,-207.2"/>
+<text xml:space="preserve" text-anchor="middle" x="944.51" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> renders</text>
+</g>
+<!-- register.html -->
+<g id="node18" class="node">
+<title>register.html</title>
+<path fill="#ffccbc" stroke="black" d="M1051.26,-195.2C1051.26,-195.2 998.74,-195.2 998.74,-195.2 992.74,-195.2 986.74,-189.2 986.74,-183.2 986.74,-183.2 986.74,-171.2 986.74,-171.2 986.74,-165.2 992.74,-159.2 998.74,-159.2 998.74,-159.2 1051.26,-159.2 1051.26,-159.2 1057.26,-159.2 1063.26,-165.2 1063.26,-171.2 1063.26,-171.2 1063.26,-183.2 1063.26,-183.2 1063.26,-189.2 1057.26,-195.2 1051.26,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1025" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">register.html</text>
+</g>
+<!-- app.py&#45;&gt;register.html -->
+<g id="edge10" class="edge">
+<title>app.py-&gt;register.html</title>
+<path fill="none" stroke="#444444" d="M692.35,-318.2C776.37,-318.2 1025,-318.2 1025,-318.2 1025,-318.2 1025,-207.15 1025,-207.15"/>
+<polygon fill="#444444" stroke="#444444" points="1028.5,-207.15 1025,-197.15 1021.5,-207.15 1028.5,-207.15"/>
+<text xml:space="preserve" text-anchor="middle" x="1020.51" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> renders</text>
+</g>
+<!-- search.html -->
+<g id="node19" class="node">
+<title>search.html</title>
+<path fill="#ffccbc" stroke="black" d="M1142.43,-195.2C1142.43,-195.2 1093.57,-195.2 1093.57,-195.2 1087.57,-195.2 1081.57,-189.2 1081.57,-183.2 1081.57,-183.2 1081.57,-171.2 1081.57,-171.2 1081.57,-165.2 1087.57,-159.2 1093.57,-159.2 1093.57,-159.2 1142.43,-159.2 1142.43,-159.2 1148.43,-159.2 1154.43,-165.2 1154.43,-171.2 1154.43,-171.2 1154.43,-183.2 1154.43,-183.2 1154.43,-189.2 1148.43,-195.2 1142.43,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1118" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">search.html</text>
+</g>
+<!-- app.py&#45;&gt;search.html -->
+<g id="edge11" class="edge">
+<title>app.py-&gt;search.html</title>
+<path fill="none" stroke="#444444" d="M692.32,-323.2C790.26,-323.2 1118,-323.2 1118,-323.2 1118,-323.2 1118,-207.2 1118,-207.2"/>
+<polygon fill="#444444" stroke="#444444" points="1121.5,-207.2 1118,-197.2 1114.5,-207.2 1121.5,-207.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1105.51" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> renders</text>
+</g>
+<!-- app_tests.py -->
+<g id="node7" class="node">
+<title>app_tests.py</title>
+<path fill="#c5e1a5" stroke="black" d="M680.19,-421.2C680.19,-421.2 625.81,-421.2 625.81,-421.2 619.81,-421.2 613.81,-415.2 613.81,-409.2 613.81,-409.2 613.81,-397.2 613.81,-397.2 613.81,-391.2 619.81,-385.2 625.81,-385.2 625.81,-385.2 680.19,-385.2 680.19,-385.2 686.19,-385.2 692.19,-391.2 692.19,-397.2 692.19,-397.2 692.19,-409.2 692.19,-409.2 692.19,-415.2 686.19,-421.2 680.19,-421.2"/>
+<text xml:space="preserve" text-anchor="middle" x="653" y="-399.9" font-family="Helvetica,sans-Serif" font-size="11.00">app_tests.py</text>
+</g>
+<!-- app_tests.py&#45;&gt;app.py -->
+<g id="edge12" class="edge">
+<title>app_tests.py-&gt;app.py</title>
+<path fill="none" stroke="#444444" d="M665,-384.82C665,-384.82 665,-350.24 665,-350.24"/>
+<polygon fill="#444444" stroke="#444444" points="668.5,-350.24 665,-340.24 661.5,-350.24 668.5,-350.24"/>
+<text xml:space="preserve" text-anchor="middle" x="669.75" y="-359.1" font-family="Helvetica,sans-Serif" font-size="9.00"> tests</text>
+</g>
+<!-- requirements.txt -->
+<g id="node8" class="node">
+<title>requirements.txt</title>
+<polygon fill="#ffe082" stroke="black" points="533.43,-338.4 444.57,-338.4 444.57,-302.4 539.43,-302.4 539.43,-332.4 533.43,-338.4"/>
+<polyline fill="none" stroke="black" points="533.43,-338.4 533.43,-332.4"/>
+<polyline fill="none" stroke="black" points="539.43,-332.4 533.43,-332.4"/>
+<text xml:space="preserve" text-anchor="middle" x="492" y="-317.1" font-family="Helvetica,sans-Serif" font-size="11.00">requirements.txt</text>
+</g>
+<!-- requirements.txt&#45;&gt;Flask -->
+<g id="edge13" class="edge">
+<title>requirements.txt-&gt;Flask</title>
+<path fill="none" stroke="#444444" stroke-dasharray="1,5" d="M539.68,-324.2C580.93,-324.2 634,-324.2 634,-324.2 634,-324.2 634,-207.03 634,-207.03"/>
+<polygon fill="#444444" stroke="#444444" points="637.5,-207.03 634,-197.03 630.5,-207.03 637.5,-207.03"/>
+<text xml:space="preserve" text-anchor="middle" x="583.76" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> specifies</text>
+</g>
+<!-- Jinja2 -->
+<g id="node10" class="node">
+<title>Jinja2</title>
+<path fill="#ffd180" stroke="black" d="M588,-87.2C588,-87.2 558,-87.2 558,-87.2 552,-87.2 546,-81.2 546,-75.2 546,-75.2 546,-63.2 546,-63.2 546,-57.2 552,-51.2 558,-51.2 558,-51.2 588,-51.2 588,-51.2 594,-51.2 600,-57.2 600,-63.2 600,-63.2 600,-75.2 600,-75.2 600,-81.2 594,-87.2 588,-87.2"/>
+<text xml:space="preserve" text-anchor="middle" x="573" y="-65.9" font-family="Helvetica,sans-Serif" font-size="11.00">Jinja2</text>
+</g>
+<!-- requirements.txt&#45;&gt;Jinja2 -->
+<g id="edge14" class="edge">
+<title>requirements.txt-&gt;Jinja2</title>
+<path fill="none" stroke="#444444" stroke-dasharray="1,5" d="M492,-301.93C492,-243.92 492,-69.2 492,-69.2 492,-69.2 534.06,-69.2 534.06,-69.2"/>
+<polygon fill="#444444" stroke="#444444" points="534.06,-72.7 544.06,-69.2 534.06,-65.7 534.06,-72.7"/>
+<text xml:space="preserve" text-anchor="middle" x="434.76" y="-174.5" font-family="Helvetica,sans-Serif" font-size="9.00"> specifies</text>
+</g>
+<!-- Werkzeug -->
+<g id="node11" class="node">
+<title>Werkzeug</title>
+<path fill="#ffd180" stroke="black" d="M671.76,-87.2C671.76,-87.2 630.24,-87.2 630.24,-87.2 624.24,-87.2 618.24,-81.2 618.24,-75.2 618.24,-75.2 618.24,-63.2 618.24,-63.2 618.24,-57.2 624.24,-51.2 630.24,-51.2 630.24,-51.2 671.76,-51.2 671.76,-51.2 677.76,-51.2 683.76,-57.2 683.76,-63.2 683.76,-63.2 683.76,-75.2 683.76,-75.2 683.76,-81.2 677.76,-87.2 671.76,-87.2"/>
+<text xml:space="preserve" text-anchor="middle" x="651" y="-65.9" font-family="Helvetica,sans-Serif" font-size="11.00">Werkzeug</text>
+</g>
+<!-- requirements.txt&#45;&gt;Werkzeug -->
+<g id="edge15" class="edge">
+<title>requirements.txt-&gt;Werkzeug</title>
+<path fill="none" stroke="#444444" stroke-dasharray="1,5" d="M539.7,-317.2C577.54,-317.2 624.12,-317.2 624.12,-317.2 624.12,-317.2 624.12,-98.95 624.12,-98.95"/>
+<polygon fill="#444444" stroke="#444444" points="627.62,-98.95 624.12,-88.95 620.62,-98.95 627.62,-98.95"/>
+<text xml:space="preserve" text-anchor="middle" x="508.76" y="-174.5" font-family="Helvetica,sans-Serif" font-size="9.00"> specifies</text>
+</g>
+<!-- setuptools -->
+<g id="node12" class="node">
+<title>setuptools</title>
+<path fill="#ffd180" stroke="black" d="M600.07,-195.2C600.07,-195.2 557.93,-195.2 557.93,-195.2 551.93,-195.2 545.93,-189.2 545.93,-183.2 545.93,-183.2 545.93,-171.2 545.93,-171.2 545.93,-165.2 551.93,-159.2 557.93,-159.2 557.93,-159.2 600.07,-159.2 600.07,-159.2 606.07,-159.2 612.07,-165.2 612.07,-171.2 612.07,-171.2 612.07,-183.2 612.07,-183.2 612.07,-189.2 606.07,-195.2 600.07,-195.2"/>
+<text xml:space="preserve" text-anchor="middle" x="579" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">setuptools</text>
+</g>
+<!-- requirements.txt&#45;&gt;setuptools -->
+<g id="edge16" class="edge">
+<title>requirements.txt-&gt;setuptools</title>
+<path fill="none" stroke="#444444" stroke-dasharray="1,5" d="M539.69,-309.2C554.95,-309.2 567.98,-309.2 567.98,-309.2 567.98,-309.2 567.98,-207.07 567.98,-207.07"/>
+<polygon fill="#444444" stroke="#444444" points="571.48,-207.07 567.98,-197.07 564.48,-207.07 571.48,-207.07"/>
+<text xml:space="preserve" text-anchor="middle" x="522.76" y="-276.3" font-family="Helvetica,sans-Serif" font-size="9.00"> specifies</text>
+</g>
+<!-- Flask&#45;&gt;Jinja2 -->
+<g id="edge17" class="edge">
+<title>Flask-&gt;Jinja2</title>
+<path fill="none" stroke="#444444" stroke-dasharray="1,5" d="M647.92,-158.92C647.92,-143.25 647.92,-123.2 647.92,-123.2 647.92,-123.2 573,-123.2 573,-123.2 573,-123.2 573,-99 573,-99"/>
+<polygon fill="#444444" stroke="#444444" points="576.5,-99 573,-89 569.5,-99 576.5,-99"/>
+<text xml:space="preserve" text-anchor="middle" x="601.76" y="-133.1" font-family="Helvetica,sans-Serif" font-size="9.00"> uses</text>
+</g>
+<!-- Flask&#45;&gt;Werkzeug -->
+<g id="edge18" class="edge">
+<title>Flask-&gt;Werkzeug</title>
+<path fill="none" stroke="#444444" stroke-dasharray="1,5" d="M665.84,-158.88C665.84,-158.88 665.84,-99.12 665.84,-99.12"/>
+<polygon fill="#444444" stroke="#444444" points="669.34,-99.12 665.84,-89.12 662.34,-99.12 669.34,-99.12"/>
+<text xml:space="preserve" text-anchor="middle" x="664.76" y="-133.1" font-family="Helvetica,sans-Serif" font-size="9.00"> uses</text>
+</g>
+<!-- style.css -->
+<g id="node20" class="node">
+<title>style.css</title>
+<polygon fill="#cfd8dc" stroke="black" points="1192.09,-87.2 1133.91,-87.2 1133.91,-51.2 1192.09,-51.2 1192.09,-87.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1163" y="-65.9" font-family="Helvetica,sans-Serif" font-size="11.00">style.css</text>
+</g>
+<!-- layout.html&#45;&gt;style.css -->
+<g id="edge21" class="edge">
+<title>layout.html-&gt;style.css</title>
+<path fill="none" stroke="#444444" stroke-width="2" d="M1182.25,-158.88C1182.25,-158.88 1182.25,-99.12 1182.25,-99.12"/>
+<polygon fill="#444444" stroke="#444444" stroke-width="2" points="1185.75,-100.64 1182.25,-90.64 1178.75,-100.64 1185.75,-100.64"/>
+<text xml:space="preserve" text-anchor="middle" x="1185.25" y="-133.1" font-family="Helvetica,sans-Serif" font-size="9.00"> links</text>
+</g>
+<!-- monkgroup.png -->
+<g id="node21" class="node">
+<title>monkgroup.png</title>
+<polygon fill="#cfd8dc" stroke="black" points="1302.22,-87.2 1209.78,-87.2 1209.78,-51.2 1302.22,-51.2 1302.22,-87.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1256" y="-65.9" font-family="Helvetica,sans-Serif" font-size="11.00">monkgroup.png</text>
+</g>
+<!-- layout.html&#45;&gt;monkgroup.png -->
+<g id="edge22" class="edge">
+<title>layout.html-&gt;monkgroup.png</title>
+<path fill="none" stroke="#444444" stroke-width="2" d="M1225.69,-158.88C1225.69,-158.88 1225.69,-99.12 1225.69,-99.12"/>
+<polygon fill="#444444" stroke="#444444" stroke-width="2" points="1229.19,-100.64 1225.69,-90.64 1222.19,-100.64 1229.19,-100.64"/>
+<text xml:space="preserve" text-anchor="middle" x="1249.51" y="-133.1" font-family="Helvetica,sans-Serif" font-size="9.00"> displays</text>
+</g>
+</g>
+</svg>
