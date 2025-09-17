@@ -36,9 +36,9 @@ Our goal is a harmonious blend of revitalization, modernization, and a robust un
 
 We are a tight-knit team of three dedicated students, all pulling in the same direction to conquer the "whoknows" challenge. Our intermediate-level programming experience, combined with two years of focused study, forms the foundation of our collaborative efforts.
 
-*   **[Student Name 1]** - [Brief role/focus, e.g., "Focus on backend migration," "CI/CD pipeline lead"]
-*   **[Student Name 2]** - [Brief role/focus, e.g., "Documentation and testing," "Infrastructure as Code specialist"]
-*   **[Student Name 3]** - [Brief role/focus, e.g., "Database refactoring," "Project coordination"]
+*   **[MetteMunch]**(https://github.com/MetteMunch) - Datamatiker 
+*   **[NikoKiru]**(https://github.com/NikoKiru) - It-Arkitekt
+*   **[SpaceMasterCarlsen]**(https://github.com/SpaceMasterCarlsen) - Datamatiker
 
 ---
 
@@ -56,12 +56,21 @@ At WeKnow, we believe in **innovation through best practices**. Our approach to 
 
 ## 📚 Resources & Learning
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby" />
+  <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/sinatra-%23000.svg?style=for-the-badge&logo=sinatra&logoColor=white" alt="Sinatra" />
+  <img src="https://img.shields.io/badge/devops-%23007BFF.svg?style=for-the-badge&logo=azure-devops&logoColor=white" alt="DevOps" />
+</p>
+
 This organization is also a place for us to share our learning journey. We encourage others (and ourselves!) to explore:
 
-*   **[Link to your course syllabus or project brief, if public]**
-*   **[Link to any specific learning resources you are using for Flask, Sinatra, Ruby, Python, DevOps concepts]**
-*   **[Future: Link to documentation generated for 'whoknows']**
+*   [![Syllabus](https://img.shields.io/badge/Course-Syllabus-blue?style=for-the-badge)](https://link-to-your-syllabus.com)
+*   [![Learning Resources](https://img.shields.io/badge/Learning-Resources-orange?style=for-the-badge)](https://link-to-your-resources.com)
+*   [![Project Docs](https://img.shields.io/badge/Project-Documentation-informational?style=for-the-badge)](https://link-to-your-docs.com)
 
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=flat-square)](https://github.com/your-org/your-repo/issues)
 ---
 
 ## 💬 Connect With Us
