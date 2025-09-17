@@ -36,9 +36,9 @@ Our goal is a harmonious blend of revitalization, modernization, and a robust un
 
 We are a tight-knit team of three dedicated students, all pulling in the same direction to conquer the "whoknows" challenge. Our intermediate-level programming experience, combined with two years of focused study, forms the foundation of our collaborative efforts.
 
-*   **[MetteMunch]**(https://github.com/MetteMunch) - Datamatiker 
-*   **[NikoKiru]**(https://github.com/NikoKiru) - It-Arkitekt
-*   **[SpaceMasterCarlsen]**(https://github.com/SpaceMasterCarlsen) - Datamatiker
+*   **[MetteMunch](https://github.com/MetteMunch)** - Datamatiker
+*   **[NikoKiru](https://github.com/NikoKiru)** - It-Arkitekt
+*   **[SpaceMasterCarlsen](https://github.com/SpaceMasterCarlsen)** - Datamatiker
 
 ---
 
