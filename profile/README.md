@@ -43,6 +43,7 @@ We are a tight-knit team of three dedicated students, all pulling in the same di
 *   **[MetteMunch](https://github.com/MetteMunch)** - Datamatiker
 *   **[NikoKiru](https://github.com/NikoKiru)** - It-Arkitekt
 *   **[SpaceMasterCarlsen](https://github.com/SpaceMasterCarlsen)** - Datamatiker
+*   **[albert-root](https://github.com/albert-root)** - Datamatiker
 
 ---
 
