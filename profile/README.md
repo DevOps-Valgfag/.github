@@ -38,7 +38,7 @@ Our goal is a harmonious blend of revitalization, modernization, and a robust un
 
 ## 🧑‍💻 Meet the Team
 
-We are a tight-knit team of three dedicated students, all pulling in the same direction to conquer the "whoknows" challenge. Our intermediate-level programming experience, combined with two years of focused study, forms the foundation of our collaborative efforts.
+We are a tight-knit team of four dedicated students, all pulling in the same direction to conquer the "whoknows" challenge. Our intermediate-level programming experience, combined with two years of focused study, forms the foundation of our collaborative efforts.
 
 *   **[MetteMunch](https://github.com/MetteMunch)** - Datamatiker
 *   **[NikoKiru](https://github.com/NikoKiru)** - It-Arkitekt
